@@ -2,9 +2,9 @@
   "name": "snake-and-ladder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "snakeLadderGame.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node snakeLadderGame.js",
     "test": "jest --detectOpenHandles"
   },
   "author": "",
