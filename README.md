@@ -12,11 +12,13 @@ This implementation allows you to create and play both normal and crooked versio
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Run `npm install` to install the dependencies.
-4. Run `node snakeLadderGame.js` to start the game.
-5. Follow the on-screen instructions to play the game.
+3. Ensure you have Node.js installed on your system.
+4. Run `npm install` to install the dependencies.
+5. Run `npm start` to start the game.
+6. Follow the on-screen instructions to play the game.
 
 ## Usage
+
 
 ```javascript
 const { createNewSnakeLadderGame } = require('./snakeLadderGame');
@@ -27,9 +29,8 @@ game.addSnake(14, 7); // Add a snake from position 14 to 7
 game.addSnake(54, 34); // Add a snake from position 54 to 34
 game.addSnake(62, 19); // Add a snake from position 62 to 19
 game.addSnake(92, 40); // Add a snake from position 92 to 40
-game.play(); // Start the game
+game.play(); // Start the game.
 
-### Options
-
+// Options
 
 createNewSnakeLadderGame(diceType): Creates a new game instance. Pass 'normal' for a normal game or 'crooked' for a crooked game.
